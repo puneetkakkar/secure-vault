@@ -1,9 +1,12 @@
 [submodule "secure-vault-server"]
 	path = secure-vault-server
 	url = https://github.com/puneetkakkar/secure-vault-server
+	branch = main
 [submodule "secure-vault-web"]
 	path = secure-vault-web
 	url = https://github.com/puneetkakkar/secure-vault-web
+	branch = main
 [submodule "secure-vault-mobile"]
 	path = secure-vault-mobile
 	url = https://github.com/puneetkakkar/secure-vault-mobile
+	branch = main

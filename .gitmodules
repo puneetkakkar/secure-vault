@@ -1,0 +1,9 @@
+[submodule "secure-vault-server"]
+	path = secure-vault-server
+	url = https://github.com/puneetkakkar/secure-vault-server
+[submodule "secure-vault-web"]
+	path = secure-vault-web
+	url = https://github.com/puneetkakkar/secure-vault-web
+[submodule "secure-vault-mobile"]
+	path = secure-vault-mobile
+	url = https://github.com/puneetkakkar/secure-vault-mobile

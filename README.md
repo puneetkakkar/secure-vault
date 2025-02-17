@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./src/main/resources/static/images/secure-vault-logo-3x.png" alt="secure vault brand" width="400"/>
+  <img src="./images/secure-vault-logo-3x.png" alt="secure vault brand" width="400"/>
 </p>
 
 <h1 align="center">SECURE VAULT - THE ONLY KEY IS YOU</h1>

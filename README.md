@@ -8,12 +8,23 @@
 
 **Secure Vault** is a privacy-focused application designed to safeguard your passwords, documents, and other confidential information. It's built with end-to-end encryption, ensuring that only you have access to your data. We never have access to your passwords or sensitive information. 
 
+This project is built with full-stack ownership and security-first architecture, combining:
+
+- A responsive **React + Next.js** web app
+- A robust **Spring Boot + Java** backend with Redis caching
+- JWT-based authentication and OAuth2 support
+- Modular codebase structured for future extensibility (e.g., mobile client, multi-device sync)
+
+> 🛠️ **Status**: Actively in development — core features are live, and I’m continuing to add secure sharing, MFA, vault tagging, and mobile client support.
+
 ## ⚗️ Key Features:
 
-* **End-to-End Encryption:** Your data is encrypted on your device and remains encrypted on our servers, ensuring only you can access it.  
-* **Master Password Security:** Your master password is the only key to unlocking your vault. 
+* **Zero-Knowledge Encryption**: All data is encrypted client-side and remains unreadable even to the server.
+* **Master Password Security:** Your master password is the only key to unlocking your vault.
 * **Secure Storage:** Keep all your valuable data safe and organized in one place.
-* **Secure Sharing:**  Share your information securely with trusted individuals. 
+* **Internationalization (i18n)**: Designed for global use with localized support.
+* **Secure Sharing (In Progress)**: Share vault items safely using time-bound, encrypted share links.
+* **Multi-Platform Support (In Progress)**: Works on web, and mobile support is being developed with React Native.
 
 ## Why Choose Secure Vault?
 
@@ -24,15 +35,15 @@
 
 ## Repository Structure
 
-This repository serves as the main hub for the Secure Vault project, containing links to the three independent repositories:
+This repository is the umbrella project containing:
 
-* [Secure Vault Server](https://github.com/puneetkakkar/secure-vault-server) - Backend service built with Java & Spring Boot.
+* [Secure Vault Server](https://github.com/puneetkakkar/secure-vault-server) - Spring Boot backend
 
-* [Secure Vault Web](https://github.com/puneetkakkar/secure-vault-web) - Web-based frontend built with React.js.
+* [Secure Vault Web](https://github.com/puneetkakkar/secure-vault-web) - Next.js + React web frontend
 
-* [Secure Vault Mobile](https://github.com/puneetkakkar/secure-vault-mobile) - Mobile application built with React Native.
+* [Secure Vault Mobile](https://github.com/puneetkakkar/secure-vault-mobile) - React Native mobile app (WIP)
 
-Each repository operates independently for better maintainability and modularity.
+Each repo is independently deployable and designed for modular, team-based development.
 
 ## Getting Started:
 
